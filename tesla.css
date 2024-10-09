@@ -1,0 +1,175 @@
+body{
+   box-sizing: border-box;
+   
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+   
+  }
+  .left-side-section{
+      width: 185px;
+      margin-top: -20px;
+      margin-left: 40px;
+  }
+  .middle-side-section{
+      display: flex;
+      width: 460px;
+      justify-content: space-between;
+      color: white;
+  }
+  .righ-side-section{
+      display: flex;
+      width: 100px;
+      justify-content: space-between;
+      margin-top: 10px;
+      margin-right: 40px;
+  }
+  .right-side-icon{
+    display:flex;
+    height: 25px;
+    
+}
+.model-y{
+    margin-top: 10px;
+   text-align: center;
+    justify-content: center;
+}
+.under-line{
+    text-decoration:underline;
+    text-decoration-color: white;
+}
+h3{
+    margin-top: -10px;
+    color: white;
+}
+h1{
+    margin-top: -10px;
+    color: white;
+}
+.button-y{
+    display: flex;
+    justify-content: center;
+   margin-top: 400px;
+}
+.Demo{
+    margin-left: 10px;
+    width: 260px;
+    height: 45px; border-color:white;
+    border-style: solid;
+    color: rgb(66, 65, 65);
+    background-color: white;
+    border-radius: 7px;
+    margin-bottom: 12px;
+
+}
+.Shop{
+   
+    margin-left: 10px;
+    width: 260px;
+    height: 45px;
+    color: white;
+    background-color: rgb(105, 105, 253);
+    border-color:rgb(105, 105, 253);
+    border-style: solid;
+    border-radius: 7px;
+}   
+.video-background{
+    background-image: url(Homepage-Model-Y-Desktop-US-v2.avif);
+    background-position: center;
+    background-size: cover;
+}
+.video-background2{
+
+    background-image: url(Homepage-Model-3-Desktop-US.avif);
+    background-position: center;
+    background-size: cover;
+}
+.video-background3{
+    background-image: url(Homepage-Model-X-Desktop-US.avif);
+    background-position: center;
+   background-size:cover ;
+}
+.video-background4{
+    background-image: url(Homepage-Model-S-Desktop-US.avif);
+    background-size: cover;
+    background-position: center;
+
+}
+.under-line-modelx{
+     text-decoration:underline;
+     text-decoration-color: white;
+}
+.button-foundation-order{
+    margin-left: 10px;
+    width: 260px;
+    height: 45px;
+    color: rgb(167, 160, 160);;
+    background-color: rgb(28, 28, 29);
+    border-color:rgb(57, 57, 59);
+    border-style: solid;
+   font-size:15px;
+}
+.button-foundation-demo{
+    margin-left: 10px;
+    width: 260px;
+    height: 45px; 
+    border-color:rgb(57, 57, 59);
+    border-style: solid;
+    color: rgb(146, 146, 146);
+    background-color: rgb(28, 28, 29);;
+    margin-bottom: 12px;
+    font-size:15px;
+}
+.video-background5{
+    background-image: url(Homepage-Cybertruck-Desktop-v3.avif);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.video-background6{
+    background-image: url(Homepage-SolarPanels-01-Desktop.avif);
+    background-size: cover;
+    background-position: center;
+}
+.video-background7{
+    background-image: url(Homepage-SolarRoof-Desktop-US.avif);
+    background-position:center ;
+    background-size: cover;
+
+}
+.video-background8{
+    background-image: url(Homepage-Powerwall-Desktop-US.avif);
+    background-size: cover;
+    background-position: center;
+}
+.video-background9{
+    background-image: url(Homepage-Accessories-Desktop-US.avif);
+    background-position: center;
+    background-size: cover;
+}
+.layout{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    font-size: small;
+    
+}
+.thumnail-img{
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.footer-section{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: small;
+
+}
